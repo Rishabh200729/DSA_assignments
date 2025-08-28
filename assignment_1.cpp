@@ -62,8 +62,6 @@ void linearSearch() {
     }
     cout << "Element not found.\n";
 }
-
-// 2. Remove Duplicates
 void removeDuplicates() {
     for (int i = 0; i < arr.size(); i++) {
         for (int j = i + 1; j < arr.size();) {
@@ -73,8 +71,6 @@ void removeDuplicates() {
         }
     }
 }
-
-// 3. Predict Output of given program
 void predictOutput() {
     int arr2[5] = {1};
     cout << "Output of program: ";
@@ -82,8 +78,6 @@ void predictOutput() {
         cout << arr2[i];
     cout << "\n";
 }
-
-// 4a. Reverse Array
 void reverseArray() {
     int i = 0, j = arr.size() - 1;
     while (i < j) {
@@ -91,8 +85,6 @@ void reverseArray() {
         i++; j--;
     }
 }
-
-// 4b. Matrix Multiplication
 void matrixMultiplication() {
     int r1,c1,r2,c2;
     cout << "Enter rows & cols of matrix1: ";
@@ -125,8 +117,6 @@ void matrixMultiplication() {
         cout << "\n";
     }
 }
-
-// 4c. Transpose Matrix
 void transposeMatrix() {
     int r,c;
     cout << "Enter rows & cols: ";
@@ -143,7 +133,6 @@ void transposeMatrix() {
     }
 }
 
-// 5. Sum of Rows and Columns
 void sumRowsCols() {
     int r,c;
     cout << "Enter rows & cols: ";
